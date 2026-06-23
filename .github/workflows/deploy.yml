@@ -10,7 +10,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: true
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Update submodules
+        run: git submodule update --init --recursive
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
