@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Hongrui Fan</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Hongrui Fan</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 23 Jun 2026 20:15:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>博客上线</title>
+      <link>http://localhost:1313/posts/first-post/</link>
+      <pubDate>Tue, 23 Jun 2026 20:15:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/first-post/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;zh-CN&#34;&gt;
+&lt;head&gt;
+  &lt;meta charset=&#34;UTF-8&#34;&gt;
+  &lt;title&gt;博客上线 - Hongrui Fan&lt;/title&gt;
+  &lt;style&gt;
+    body {
+      max-width: 720px;
+      margin: 60px auto;
+      padding: 0 20px;
+      font-family: -apple-system, BlinkMacSystemFont, &#34;Segoe UI&#34;, Roboto, sans-serif;
+      line-height: 1.8;
+      color: #333;
+      background: #fafafa;
+    }
+    h1 { font-size: 2em; color: #1a1a1a; margin-bottom: 0.3em; }
+    .meta { color: #888; font-size: 0.9em; margin-bottom: 2em; }
+    .meta a { color: #888; text-decoration: none; margin-right: 8px; }
+    .meta a:hover { color: #333; }
+    p { margin: 1.2em 0; }
+    a { color: #333; }
+    .nav { margin-top: 3em; padding-top: 1em; border-top: 1px solid #e0e0e0; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+  &lt;h1&gt;博客上线&lt;/h1&gt;
+  &lt;div class=&#34;meta&#34;&gt;
+    2026-06-23 · 
+    &lt;a href=&#34;http://localhost:1313/tags/随笔&#34;&gt;随笔&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;p&gt;这个博客基于 Hugo + PaperMod 主题搭建，托管在 GitHub Pages 上。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

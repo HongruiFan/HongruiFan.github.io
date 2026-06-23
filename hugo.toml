@@ -1,0 +1,41 @@
+baseURL = 'https://hongruifan.github.io'
+languageCode = 'zh-CN'
+title = 'Hongrui Fan'
+theme = 'PaperMod'
+
+[security]
+  allowContent = ['.*']
+
+[params]
+  author = 'Hongrui Fan'
+  description = '思考、记录、分享'
+  defaultTheme = 'auto'
+
+[params.profileMode]
+  enabled = true
+  title = "Hongrui Fan"
+  subtitle = "理论物理 → AI 应用开发"
+  imageUrl = "https://github.com/HongruiFan.png"
+  imageTitle = "avatar"
+
+[[params.profileMode.buttons]]
+  name = "文章"
+  url = "posts/"
+
+[[params.profileMode.buttons]]
+  name = "关于"
+  url = "about/"
+
+[menu]
+  [[menu.main]]
+    name = '首页'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    name = '文章'
+    url = '/posts/'
+    weight = 20
+  [[menu.main]]
+    name = '关于'
+    url = '/about/'
+    weight = 30
